@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explore Philippines</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">🌴 Explore PH</div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#spots">Spots</a></li>
+    <li><button id="signinBtn" class="nav-btn">Sign In</button></li>
+  </ul>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="section home-bg">
+  <div class="overlay"></div>
+  <div class="content">
+    <h1>Discover Paradise</h1>
+    <p>Experience the beauty of the Philippines — from turquoise waters to lush mountains.</p>
+    <a href="#about" class="btn">Explore More</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section about-bg">
+  <div class="overlay"></div>
+  <div class="content">
+    <h2>About The Philippines</h2>
+    <p>An archipelago of over 7,000 islands — offering tropical beaches, historic cities, and stunning natural wonders. Adventure awaits!</p>
+    <a href="#spots" class="btn">See Top Spots</a>
+  </div>
+</section>
+
+<!-- Tourist Spots Section -->
+<section id="spots" class="section spots-bg">
+  <div class="overlay"></div>
+  <div class="content spots">
+
+    <div class="spot">
+      <h2>Boracay Island</h2></marquee>
+      <img src="boracay-island-white-beach-sailing-philippines.webp" alt="Boracay" class="spot-img">
+      <p>Known for its powdery white sand beaches and vibrant nightlife, Boracay is a paradise for beach lovers and partygoers.</p>
+    </div>
+
+    <div class="spot">
+      <marquee behavior="scroll" direction="right" scrollamount="5"><h2>Chocolate Hills, Bohol</h2></marquee>
+      <img src="chocolate-hills.webp" alt="Chocolate Hills" class="spot-img">
+      <p>A geological wonder of over 1,200 perfectly cone-shaped hills, best viewed at sunrise and sunset!</p>
+    </div>
+
+    <div class="spot">
+      <h2>Palawan's El Nido</h2></marquee>
+      <img src="el-nido-kayak-adventure-holiday-philippines.webp" alt="El Nido" class="spot-img">
+      <p>Famous for its dramatic limestone cliffs, hidden lagoons, and crystal-clear waters perfect for island hopping adventures.</p>
+    </div>
+
+    <div class="spot">
+      <h2>Mayon Volcano, Albay</h2></marquee>
+      <img src="Mt.Mayon_tam3rd.webp" alt="Mayon Volcano" class="spot-img">
+      <p>The "perfect cone" volcano, standing majestically in Albay, is a breathtaking sight and a symbol of the region.</p>
+    </div>
+
+    <div class="spot">
+      <h2>Vigan, Ilocos Sur</h2></marquee>
+      <img src="jbxvrk75f8xa8vxt7toj.webp" alt="Vigan" class="spot-img">
+      <p>A UNESCO World Heritage Site with Spanish colonial architecture, cobblestone streets, and horse-drawn carriages.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="socials">
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111393.png" alt="Facebook"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+    </div>
+    <p>Contact me: mikesarga9@gmail.com | +63 994 594 9505</p>
+    <p>&copy; 2025 Explore PH. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Sign In Modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Sign In</h2>
+    <form>
+      <input type="text" placeholder="Username" required><br>
+      <input type="password" placeholder="Password" required><br>
+      <button type="submit" class="btn">Sign In</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
